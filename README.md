@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Previsao_Tempo_ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto realizado com o intuito de praticar o que aprendi nos cursos que realizei.<br />
+O projeto se baseia em efetuar consulta sobre a previsão do tempo nas cidades do Brasil. (Por enquanto somente do Brasil).<br />
+Foi desenvolvido em React.js e utilizando diversas APIs gratuitas como:<br />
+* [Seviço de Dados do IBGE](https://servicodados.ibge.gov.br/api/docs/localidades) - Para obter a lista de UFs e Cidades do Brasil
+* [Position Stack](https://positionstack.com/) - Para conseguir a latitude e longitude da cidade
+* [OpenWeatherMap](https://openweathermap.org/api) - Para pegar os dados de previsão atual e de 3 em 3 horas
+* [HGWaeather](https://hgbrasil.com/status/weather) - Para pegar os dados de previsão de próximos 10 dias
 
-## Available Scripts
+## 📸 Galeria
 
-In the project directory, you can run:
+<div align="center">
+<img src="https://user-images.githubusercontent.com/44281623/150849294-dc9b3e29-7f1a-4eaa-898b-0484bab89666.png" />
+</div>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/44281623/150849389-c8c99657-40f8-44ae-b316-6cd2bbd1218b.png" />
+</div>
+https://user-images.githubusercontent.com/44281623/150853189-e9c76177-0d18-4e08-b098-e754b3fe6abf.mp4
 
-### `npm start`
+## :computer: Recursos Utilizados:  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Necessário realizar a instalação das aplicações/frameworks abaixo:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [Node.js](https://nodejs.org/en/)
 
-### `npm test`
+Necessário fazer o cadastro e pegar a chave da API nos seguintes sites:
+* [Position Stack](https://positionstack.com/)
+* [OpenWeatherMap](https://openweathermap.org/api)
+* [HGWaeather](https://hgbrasil.com/status/weather)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :fire: Configurando o Projeto Localmente
 
-### `npm run build`
+1) Crie uma conta nos sites citados anteriormente e pegue a API Key delas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2) Modifique o arquivo .env no projeto, colocando as API Keys
+ ```
+REACT_APP_OPEN_WEATHER_MAP_API_KEY='YOUR OPEN WEATHER MAP API KEY' (Colocar a API Key do OpenWeatherMap substituindo 'YOUR OPEN WEATHER MAP API KEY')
+REACT_APP_POSITIONSTACK_API_KEY='YOUR POSITIONSTACK API KEY'  (Colocar a API Key do Position Stack substituindo 'YOUR POSITIONSTACK API KEY')
+REACT_APP_HGBRASIL_API_KEY='YOUR HGBRASIL API KEY' (Colocar a API Key do HG Brasil substituindo 'YOUR HGBRASIL API KEY')
+ ```
+3) Abra o cmd do Windows ou o terminal do Linux e entre no diretório onde está localizado o projeto.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4) Execute o seguinte comando para instalar as dependências  do projeto:
+```
+npm install
+```
+5) Depois da instalação, já pode inicializar o projeto com o seguinte comando:
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
