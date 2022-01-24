@@ -9,14 +9,22 @@ Foi desenvolvido em React.js e utilizando diversas APIs gratuitas como:<br />
 * [HGWaeather](https://hgbrasil.com/status/weather) - Para pegar os dados de previsão de próximos 10 dias
 
 ## 📸 Galeria
-
+<br />
 <div align="center">
 <img src="https://user-images.githubusercontent.com/44281623/150849294-dc9b3e29-7f1a-4eaa-898b-0484bab89666.png" />
 </div>
+<br />
+<br />
 <div align="center">
 <img src="https://user-images.githubusercontent.com/44281623/150849389-c8c99657-40f8-44ae-b316-6cd2bbd1218b.png" />
 </div>
-https://user-images.githubusercontent.com/44281623/150853189-e9c76177-0d18-4e08-b098-e754b3fe6abf.mp4
+<br />
+<br />
+<h3>Demonstração:</h3>
+
+https://user-images.githubusercontent.com/44281623/150853767-5853ecb6-c150-481b-882d-424a388aed00.mp4
+
+<br />
 
 ## :computer: Recursos Utilizados:  
 
