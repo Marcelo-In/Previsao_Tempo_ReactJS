@@ -48,33 +48,33 @@ const FormBusca = () => {
     return (
         <Container className="container-formbusca" component="article" maxWidth="sm">
             <div className="campos-consulta">
-            <FormControl className="select-uf-control">
-                <InputLabel id="select-uf-label">UF</InputLabel>
-                <Select labelId="select-uf-label" value={uf} onChange={handleChangeUf}>
-                {ufList.map((item, key) => {
-                    return (
-                    <MenuItem key={key} value={item.sigla}>
-                        {item.sigla}
-                    </MenuItem>
-                    );
-                })}
-                </Select>
-            </FormControl>
-            <FormControl className="select-cidade-control">
-                <InputLabel id="select-cidade-label">Cidade</InputLabel>
-                <Select labelId="select-cidade-label" value={cidade} onChange={handleChangeCidade} >
-                {cidadeList.map((item, key) => {
-                    return (
-                    <MenuItem key={key} value={item.nome}>
-                        {item.nome}
-                    </MenuItem>
-                    );
-                })}
-                </Select>
-            </FormControl>
-            <Button className="botao-consultar" variant="contained" color="primary" onClick={handleClickConsultar}>
-                Consultar
-            </Button>
+                <FormControl className="select-uf-control">
+                    <InputLabel id="select-uf-label">UF</InputLabel>
+                    <Select labelId="select-uf-label" value={uf} onChange={handleChangeUf}>
+                    {ufList.map((item, key) => {
+                        return (
+                        <MenuItem key={key} value={item.sigla}>
+                            {item.sigla}
+                        </MenuItem>
+                        );
+                    })}
+                    </Select>
+                </FormControl>
+                <FormControl className="select-cidade-control">
+                    <InputLabel id="select-cidade-label">Cidade</InputLabel>
+                    <Select labelId="select-cidade-label" value={cidade} onChange={handleChangeCidade} >
+                    {cidadeList.map((item, key) => {
+                        return (
+                        <MenuItem key={key} value={item.nome}>
+                            {item.nome}
+                        </MenuItem>
+                        );
+                    })}
+                    </Select>
+                </FormControl>
+                <Button className="botao-consultar" variant="contained" color="primary" onClick={handleClickConsultar}>
+                    Consultar
+                </Button>
             </div>
         </Container>
     );

@@ -36,12 +36,14 @@ const PrevisaoAtual = () => {
     return(
         <Container className="container-previsaoatual" component="article" maxWidth="md">
         <div className="previsao-atual">
-            <div className="col-weather-img">
-                { previsaoAtual.weather ? <img className="img-weather-atual" src={getUrlIconWeather2x(previsaoAtual.weather[0].icon)} alt="Imagem clima"></img> : null }
-            </div>
-            <div className="col-temp">
-                { previsaoAtual.main ? <span className="col-temp-valor">{Math.round(previsaoAtual.main.temp)}</span> : null }
-                { previsaoAtual.main ? <span className="col-temp-escala">°C</span> : null }
+            <div className="col-weather">
+                <div className="col-weather-img">
+                    { previsaoAtual.weather ? <img className="img-weather-atual" src={getUrlIconWeather2x(previsaoAtual.weather[0].icon)} alt="Imagem clima"></img> : null }
+                </div>
+                <div className="col-temp">
+                    { previsaoAtual.main ? <span className="col-temp-valor">{Math.round(previsaoAtual.main.temp)}</span> : null }
+                    { previsaoAtual.main ? <span className="col-temp-escala">°C</span> : null }
+                </div>
             </div>
             <div className="col-dados">
                 { previsaoAtual.main ? <span>Umidade do ar: {previsaoAtual.main.humidity}%</span> : null }

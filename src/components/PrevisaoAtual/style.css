@@ -5,6 +5,26 @@
     justify-content: space-around;
 }
 
+@media screen and (max-width: 800px) {
+	.previsao-atual {
+		flex-direction: column;
+        text-align: center !important;
+	}
+    .col-clima{
+        text-align: center !important;
+        margin-top: 10px;
+    }
+    .col-clima-datahora{
+        font-size: 18px !important;
+    }
+}
+
+.col-weather{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .img-weather-atual{
     max-width: 100%;
     max-height: 100%;
