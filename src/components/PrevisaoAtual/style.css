@@ -1,0 +1,41 @@
+.previsao-atual{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-weather-atual{
+    max-width: 100%;
+    max-height: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.col-temp-valor{
+    font-size: 70px;
+}
+
+.col-temp-escala{
+    font-size: 30px;
+}
+
+.col-temp{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-dados{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-clima{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.col-clima-datahora{
+    font-size: 25px;
+}

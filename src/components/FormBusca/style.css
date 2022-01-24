@@ -1,0 +1,20 @@
+.campos-consulta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select-uf-control{
+    width: 10% !important;
+    margin: 0 5px !important;
+}
+
+.select-cidade-control{
+    width: 70% !important;
+    margin: 0 5px !important;
+}
+
+.container-formbusca{
+    margin: 10px 0;
+    padding: 10px 0;
+}

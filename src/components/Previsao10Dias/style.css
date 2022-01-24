@@ -1,0 +1,48 @@
+.container-previsao10dias{
+    margin: 10px 0;
+    padding: 10px 0;
+    overflow-x: hidden;
+}
+
+.colunas-previsao10dias{
+    width: 1970px;
+    transition: all ease 0.5s;   
+}
+
+.colunas-previsao10dias--left, .colunas-previsao10dias--right{
+    position: absolute;
+    width: 40px;
+    height: 156px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.6);
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.colunas-previsao10dias--left{
+    left: 30px;
+}
+
+.colunas-previsao10dias--right{
+    right: 30px;
+}
+
+.coluna-10dias{
+    display:inline-block;
+}
+
+.coluna-10dias-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px groove black;
+    padding: 10px;
+    margin: 0 10px;
+    max-width: 200px;
+    width: 155px;
+    align-items: center;
+}

@@ -1,0 +1,32 @@
+.container-previsao3hours48hours{
+    margin: 10px 0;
+    padding: 10px 0;
+    overflow-x: hidden;
+}
+
+.colunas-previsao{
+    width: 3604px;
+    transition: all ease 0.5s;   
+}
+
+.colunas-previsao--left, .colunas-previsao--right{
+    position: absolute;
+    width: 40px;
+    height: 281px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.6);
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.colunas-previsao--left{
+    left: 30px;
+}
+
+.colunas-previsao--right{
+    right: 30px;
+}
