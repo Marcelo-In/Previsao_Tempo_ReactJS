@@ -6,7 +6,7 @@ Foi desenvolvido em React.js e utilizando diversas APIs gratuitas como:<br />
 * [Seviço de Dados do IBGE](https://servicodados.ibge.gov.br/api/docs/localidades) - Para obter a lista de UFs e Cidades do Brasil
 * [Position Stack](https://positionstack.com/) - Para conseguir a latitude e longitude da cidade
 * [OpenWeatherMap](https://openweathermap.org/api) - Para pegar os dados de previsão atual e de 3 em 3 horas
-* [HGWaeather](https://hgbrasil.com/status/weather) - Para pegar os dados de previsão de próximos 10 dias
+* [HGWeather](https://hgbrasil.com/status/weather) - Para pegar os dados de previsão de próximos 10 dias
 
 ## 📸 Galeria
 <br />
@@ -35,7 +35,7 @@ Necessário realizar a instalação das aplicações/frameworks abaixo:
 Necessário fazer o cadastro e pegar a chave da API nos seguintes sites:
 * [Position Stack](https://positionstack.com/)
 * [OpenWeatherMap](https://openweathermap.org/api)
-* [HGWaeather](https://hgbrasil.com/status/weather)
+* [HGWeather](https://hgbrasil.com/status/weather)
 
 ## :fire: Configurando o Projeto Localmente
 
